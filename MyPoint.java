@@ -35,5 +35,11 @@ public class MyPoint {
         return "(" + this.x + ", " + this.y + ")";
     }
 
-    
+    // Distance method
+    public double distanceTo(MyPoint p) {
+        int dx = this.x - p.x;
+        int dy = this.y - p.y;
+        return Math.sqrt(dx * dx + dy * dy);
+    }
+
 }
