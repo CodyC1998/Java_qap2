@@ -76,7 +76,7 @@ public class MyLine {
 
     // to string method
     public String toString() {
-        return "MyLine[begin=" + "(" + begin + ")" + ", end=" + "(" + end + ")" + "]";
+        return "MyLine[begin=" + begin + ", end=" + end + "]";
     }
 }
 
